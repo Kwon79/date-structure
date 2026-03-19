@@ -90,10 +90,6 @@ my_fraction divid(my_fraction i, my_fraction j) {
 void print(my_fraction f) {
 	int n = f >> 16;
 	int d = f& 0xFFFF;
-	int gcd = find_gcd(n, d);
-
-	n /= gcd;
-	d /= gcd;
-
+	
 	printf("%d/%d", n, d);
 }
