@@ -11,7 +11,12 @@ int main() {
 
 	int a, b;
 
-	sscanf(input, "%d %d", &a,&b);
+	int iserror=sscanf(input, "%d %d", &a,&b);
+
+	if (iserror!= 2) {
+		printf("error");
+		return 1;
+	}
 
 	if (a <0 || b <0) {
 		printf("error");
