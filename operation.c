@@ -15,6 +15,11 @@ int main() {
 
 	sscanf(input, "%d/%d %c %d/%d", &n1,&d1,&c,&n2,&d2);
 
+	if (d1 == 0 || d2 == 0) {
+		printf("error");
+		return 1;
+	}
+
 	my_fraction fra1 = create(n1, d1);
 	my_fraction fra2 = create(n2, d2);
 	my_fraction result = 0;
@@ -37,7 +42,7 @@ int main() {
 		return 1;
 	}
 
-	my_fraction final = reduce(result);
+	my_fraction final = reduce(result); 
 	print(final);
 
 	return 0;
