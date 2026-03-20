@@ -6,7 +6,7 @@
 my_fraction create(int numerator, int denominator) {
 	return(numerator << 16) | denominator;
 }
-extern int find_gcd(int a, int b) {
+int find_gcd(int a, int b) {
 	while (b != 0) {
 		int tmp = b;
 		b = a%b;
