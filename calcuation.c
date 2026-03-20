@@ -34,7 +34,7 @@ int main(int c, char** v) {
 
 	printf("Perimeter:");
 	print(resultPerimeter);
-	printf(" Area:");
+	printf(", Area:");
 	print(resultArea);
 	return 0;
 }
