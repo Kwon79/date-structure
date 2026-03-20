@@ -30,7 +30,7 @@ int main() {
 	my_math gcd = find_Gcd(a, b);
 	my_math Lcm = find_Lcm(a, b);
 	
-	printf("GCD: %d,LCM:%d", gcd, Lcm);
+	printf("GCD: %d,LCM: %d", gcd, Lcm);
 	
 	return 0;
 }
