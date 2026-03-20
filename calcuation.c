@@ -22,6 +22,10 @@ int main(int c, char** v) {
 		printf("error");
 		return 1;
 	}
+	if (n1 < 0 || d1 < 0 || n2 < 0 || d2 < 0) {
+    printf("error");
+    return 1;
+}
 
 	my_rectangle fra1=create(n1,d1);
 	my_rectangle fra2= create(n2, d2);
