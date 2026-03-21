@@ -138,14 +138,10 @@ print() → 출력: 9/20
 ---
 
 ## 입출력 예시
-
-| 입력 | 출력 |
-|------|------|
-| 2/5 + 2/4 | 9/10 |
-| 0.5 + 1/5 | 7/10 |
-| 3 + 1/2 | 7/2 |
-| 1/2 + 1/2 | 1 |
-| -3/7 + 7/9 | 22/63 |
+<img width="2170" height="332" alt="image" src="https://github.com/user-attachments/assets/c7aae6dc-131e-4d7a-a5cb-1f7dbc2c2380" />
+<img width="2330" height="384" alt="image" src="https://github.com/user-attachments/assets/3742e7e9-56fd-4cca-882e-c99a571ee587" />
+<img width="2318" height="436" alt="image" src="https://github.com/user-attachments/assets/0929fa32-8d5c-4d2a-9297-de309e3e1db5" />
+<img width="2130" height="386" alt="image" src="https://github.com/user-attachments/assets/bf302c71-225b-4a10-9b59-1cdf58ace5d2" />
 
 ---
 
