@@ -1,7 +1,7 @@
-typedef unsigned int my_fraction;
+typedef int my_fraction;
 
-
-extern my_fraction create(int numerator,int denominator);
+extern my_fraction create(int numerator, int denominator);
+extern my_fraction parse(char* str);
 extern my_fraction add(my_fraction i, my_fraction j);
 extern my_fraction minus(my_fraction i, my_fraction j);
 extern my_fraction mult(my_fraction i, my_fraction j);
